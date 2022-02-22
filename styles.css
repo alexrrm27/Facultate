@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    background-color: #072227;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #35858B;
+}
+
+.container-fluid {
+    margin: 0, auto;
+    padding: 3% 15%;
+    color: #4FBDBA;
+    width: 75%;
+}
+
+/* .btn {
+    margin-top: 2rem;
+} */
+
+#dateTema {
+    text-align: left;
+    display: none;
+}
+
+.intro-title {
+    color: #4FBDBA;
+}
+
+    /* background-color: #35858B; */
+    /* background-color: #4FBDBA; */
+
+.row {
+    background-color: #35858B;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #AEFEFF;
+    text-align: left;
+}
+
+.genereaza {
+    padding: 1rem;
+}
+
+.user-input {
+    padding: 1rem;
+}
+
+.table-header {
+    text-align: center;
+}
+
+.nota {
+    text-align: left;
+}
+
+.tema {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #35858B;
+}
+
+@media (max-width: 1400px) {
+    .user-input {
+        width: 100%;
+    }
+    .genereaza {
+        width: 100%;
+    }
+    .container-fluid {
+        width: 100%;
+    }
+}
